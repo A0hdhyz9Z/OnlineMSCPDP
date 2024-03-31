@@ -1,0 +1,17 @@
+
+Z	java:S112}"FDefine and throw a dedicated exception instead of using a generic one.(Éíÿb
+a	java:S112…"FDefine and throw a dedicated exception instead of using a generic one.(Éê‘ïüÿÿÿÿ
+a	java:S112™"FDefine and throw a dedicated exception instead of using a generic one.(×½Ûíÿÿÿÿÿ
+\	java:S112¤"FDefine and throw a dedicated exception instead of using a generic one.(Ö·®Æ
+[	java:S112\"FDefine and throw a dedicated exception instead of using a generic one.(¼×İ³
+h
+java:S3776["RRefactor this method to reduce its Cognitive Complexity from 27 to the 15 allowed.(³×üÓ
+@
+java:S1181r"%Catch Exception instead of Throwable.(Ñéùşÿÿÿÿ
+@
+java:S1181w"%Catch Exception instead of Throwable.(°ÿïùÿÿÿÿ
+@
+java:S1181|"%Catch Exception instead of Throwable.(·ŸÄâÿÿÿÿÿ
+R	java:S125«"<This block of commented-out lines of code should be removed.(ìæ¢ñ
+o
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(éÄ¬¾ûÿÿÿÿ

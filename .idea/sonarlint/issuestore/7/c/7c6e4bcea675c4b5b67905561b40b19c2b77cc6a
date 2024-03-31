@@ -1,0 +1,12 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ì¢†çùÿÿÿÿ
+K
+java:S1854/"5Remove this useless assignment to local variable "w".(Ó„ñ
+‚
+java:S1130"lRemove the declaration of thrown exception 'java.lang.Exception', as it cannot be thrown from method's body.(ÍõÏú
+Q	java:S125"<This block of commented-out lines of code should be removed.(•Ôéœ
+V	java:S125""<This block of commented-out lines of code should be removed.(ì€Û†úÿÿÿÿ
+<
+java:S1481/"&Remove this unused "w" local variable.(Ó„ñ
+S	java:S1066"9Replace this use of System.out or System.err by a logger.(æûÏĞøÿÿÿÿ
+Q	java:S1255"<This block of commented-out lines of code should be removed.(ÇÇŒ“

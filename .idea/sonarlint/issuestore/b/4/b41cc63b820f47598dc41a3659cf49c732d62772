@@ -1,0 +1,41 @@
+
+t
+java:S2293i"YReplace the type specification in this constructor call with the diamond operator ("<>").(Úúõüÿÿÿÿ
+t
+java:S2293v"YReplace the type specification in this constructor call with the diamond operator ("<>").(Úúõüÿÿÿÿ
+o
+java:S2293…"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùÉˆ
+o
+java:S2293–"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùÉˆ
+o
+java:S2293§"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùÉˆ
+o
+java:S2293Å"YReplace the type specification in this constructor call with the diamond operator ("<>").(ùÉˆ
+p
+java:S2293ø"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ñ‚”Ï
+u
+java:S2293ë"YReplace the type specification in this constructor call with the diamond operator ("<>").(Úúõüÿÿÿÿ
+u
+java:S2293ô"YReplace the type specification in this constructor call with the diamond operator ("<>").(¸çòñÿÿÿÿÿ
+.
+java:S17004"Rename field "instances"(‡´÷…
+<
+java:S19484"&Make "instances" private or transient.(‡´÷…
+A
+java:S19489"&Make "arff" transient or serializable.(É¡¢îøÿÿÿÿ
+{
+java:S1149Å"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(´¾‹şÿÿÿÿ
+{
+java:S1149Û"_Replace the synchronized class "StringBuffer" by an unsynchronized one such as "StringBuilder".(´¾‹şÿÿÿÿ
+[
+java:S1124%"EReorder the modifiers to comply with the Java Language Specification.(æŞ—
+[
+java:S1124*"EReorder the modifiers to comply with the Java Language Specification.(ÔÕ¡ü
+;
+java:S1659ù"Declare "j" on a separate line.(Öß«½úÿÿÿÿ
+^
+java:S1659–"BDeclare "first" and all following declarations on a separate line.( é·Òûÿÿÿÿ
+^
+java:S1659·"BDeclare "first" and all following declarations on a separate line.( é·Òûÿÿÿÿ
+W	java:S125Ç"<This block of commented-out lines of code should be removed.(—Óšúüÿÿÿÿ
+R	java:S125Ü"<This block of commented-out lines of code should be removed.(áãÕ¶

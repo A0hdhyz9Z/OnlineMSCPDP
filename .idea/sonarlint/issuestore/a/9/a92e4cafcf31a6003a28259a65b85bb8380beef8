@@ -1,0 +1,9 @@
+
+n
+java:S22938"YReplace the type specification in this constructor call with the diamond operator ("<>").(¬‹¼
+h
+java:S2786#"RRemove this redundant "static" qualifier; nested enum types are implicitly static.(Ş›ÆÛ
+@
+java:S1181P"%Catch Exception instead of Throwable.(À˜§üÿÿÿÿ
+W
+java:S1854q"BRemove this useless assignment to local variable "secondsElapsed".(ïÑ™6

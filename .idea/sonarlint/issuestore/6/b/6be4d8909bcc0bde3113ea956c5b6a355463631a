@@ -1,0 +1,86 @@
+
+p
+java:S2293Û"YReplace the type specification in this constructor call with the diamond operator ("<>").(³«şÌ
+p
+java:S2293Ü"YReplace the type specification in this constructor call with the diamond operator ("<>").(¤•Ãå
+o
+java:S2293ç"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÓÓØ
+p
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(ã”û
+x
+java:S1488Æ"\Immediately return this expression instead of assigning it to the temporary variable "inst".(¬Û…ÿÿÿÿÿ
+x
+java:S1488Ì"\Immediately return this expression instead of assigning it to the temporary variable "inst".(é™¸­ÿÿÿÿÿ
+x
+java:S1488Ò"\Immediately return this expression instead of assigning it to the temporary variable "inst".(áÄÛŸúÿÿÿÿ
+U	java:S1068"9Replace this use of System.out or System.err by a logger.(Ö­ë 8˜¦÷–è1
+R	java:S125…"<This block of commented-out lines of code should be removed.(Ù¸ü¦
+i
+java:S3776‘"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(ÍÂˆµ
+W	java:S125“"<This block of commented-out lines of code should be removed.(‰ğ¨³ÿÿÿÿÿ
+W	java:S125œ"<This block of commented-out lines of code should be removed.(Ÿó‘Çøÿÿÿÿ
+W	java:S125¢"<This block of commented-out lines of code should be removed.(ÆØ‡üÿÿÿÿ
+W	java:S125¦"<This block of commented-out lines of code should be removed.(±®ĞŞúÿÿÿÿ
+C
+java:S1125§"'Remove the unnecessary boolean literal.(€šù¬şÿÿÿÿ
+U
+java:S2130¨">Use "Double.parseDouble" for this string-to-double conversion.(•ª²
+W	java:S125³"<This block of commented-out lines of code should be removed.(şâúòüÿÿÿÿ
+R	java:S125Á"<This block of commented-out lines of code should be removed.(ãçö®
+R	java:S125Å"<This block of commented-out lines of code should be removed.(ãçö®
+W	java:S125É"<This block of commented-out lines of code should be removed.(ÿÊÃìúÿÿÿÿ
+R	java:S125Ë"<This block of commented-out lines of code should be removed.(¿ë±
+n
+java:S3776Ö"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(•™÷ÿÿÿÿÿ
+W	java:S125Ø"<This block of commented-out lines of code should be removed.(†¹¿®üÿÿÿÿ
+W	java:S125Ş"<This block of commented-out lines of code should be removed.(¨€îûÿÿÿÿ
+R	java:S125å"<This block of commented-out lines of code should be removed.(ˆÜä
+R	java:S125ñ"<This block of commented-out lines of code should be removed.(äóãù
+W	java:S125ó"<This block of commented-out lines of code should be removed.(é¡‘õûÿÿÿÿ
+R	java:S125÷"<This block of commented-out lines of code should be removed.(›·Ğê
+Z
+java:S2130ù">Use "Double.parseDouble" for this string-to-double conversion.(öôÂúÿÿÿÿ
+W	java:S125ƒ"<This block of commented-out lines of code should be removed.(şâúòüÿÿÿÿ
+F
+java:S1172”"/Remove this unused method parameter "instance".(¤©¹Ø
+R	java:S125›"<This block of commented-out lines of code should be removed.(§Ü„¾
+W	java:S125¡"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+i
+java:S3776ª"RRefactor this method to reduce its Cognitive Complexity from 16 to the 15 allowed.(¾ÔÍ 
+W	java:S125­"<This block of commented-out lines of code should be removed.(‰ğ¨³ÿÿÿÿÿ
+W	java:S125°"<This block of commented-out lines of code should be removed.(¨€îûÿÿÿÿ
+R	java:S125·"<This block of commented-out lines of code should be removed.(ˆÜä
+R	java:S125¾"<This block of commented-out lines of code should be removed.(äóãù
+W	java:S125À"<This block of commented-out lines of code should be removed.(é¡‘õûÿÿÿÿ
+W	java:S125Ä"<This block of commented-out lines of code should be removed.(ËøÉ½ûÿÿÿÿ
+U
+java:S2130Æ">Use "Double.parseDouble" for this string-to-double conversion.( ßÍ
+W	java:S125É"<This block of commented-out lines of code should be removed.(é¡‘õûÿÿÿÿ
+W	java:S125Ñ"<This block of commented-out lines of code should be removed.(şâúòüÿÿÿÿ
+R	java:S125Ú"<This block of commented-out lines of code should be removed.(õ¶Á
+i
+java:S3776ß"RRefactor this method to reduce its Cognitive Complexity from 32 to the 15 allowed.(—‰äì
+O
+java:S1854ı"8Remove this useless assignment to local variable "type".(ñïÔØ
+W	java:S125ã"<This block of commented-out lines of code should be removed.(·°©üÿÿÿÿ
+W	java:S125í"<This block of commented-out lines of code should be removed.(†À¨úÿÿÿÿ
+>
+java:S1125î"'Remove the unnecessary boolean literal.(êÎÜØ
+R	java:S125ï"<This block of commented-out lines of code should be removed.(ˆÜä
+W	java:S125ô"<This block of commented-out lines of code should be removed.(·°©üÿÿÿÿ
+R	java:S125ø"<This block of commented-out lines of code should be removed.(‰€û¿
+@
+java:S1481ı")Remove this unused "type" local variable.(ñïÔØ
+W	java:S125ş"<This block of commented-out lines of code should be removed.(æÑöÂÿÿÿÿÿ
+W	java:S125†"<This block of commented-out lines of code should be removed.(Óı¶÷øÿÿÿÿ
+R	java:S125‰"<This block of commented-out lines of code should be removed.(¯·¬
+W	java:S125"<This block of commented-out lines of code should be removed.(—Ûóäûÿÿÿÿ
+W	java:S125›"<This block of commented-out lines of code should be removed.(ÖÁèèûÿÿÿÿ
+R	java:S125¥"<This block of commented-out lines of code should be removed.(Àîªö
+R	java:S125¯"<This block of commented-out lines of code should be removed.(ø®õÿ
+W	java:S125Á"<This block of commented-out lines of code should be removed.(²˜„úÿÿÿÿ
+W	java:S125Ç"<This block of commented-out lines of code should be removed.(¸–íóüÿÿÿÿ
+W	java:S125Í"<This block of commented-out lines of code should be removed.(¸–íóüÿÿÿÿ
+W	java:S125Ó"<This block of commented-out lines of code should be removed.(¸–íóüÿÿÿÿ
+S
+java:S1144ª"<Remove this unused private "readDenseInstanceSparse" method.(¾ÔÍ 

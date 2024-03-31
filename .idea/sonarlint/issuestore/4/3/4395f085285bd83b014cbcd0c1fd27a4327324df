@@ -1,0 +1,35 @@
+
+V	java:S110("<This class has 6 parents which is greater than 5 authorized.(‹’üöúÿÿÿÿ
+o
+java:S11047"YMake learnerOption a static final constant or non-public and provide accessors if needed.(©ëÏ
+s
+java:S1104:"XMake streamOption a static final constant or non-public and provide accessors if needed.(Ó×ï‰şÿÿÿÿ
+r
+java:S1104>"\Make numStreamsOption a static final constant or non-public and provide accessors if needed.(Ó³ú
+x
+java:S1104B"]Make generalEvalOption a static final constant or non-public and provide accessors if needed.(Õ–™öüÿÿÿÿ
+i
+java:S1104E"TMake f1Option a static final constant or non-public and provide accessors if needed.(Š®ò<
+o
+java:S1104G"YMake entropyOption a static final constant or non-public and provide accessors if needed.(şş‡ë
+k
+java:S1104J"UMake cmmOption a static final constant or non-public and provide accessors if needed.(Üæˆœ
+p
+java:S1104M"UMake ssqOption a static final constant or non-public and provide accessors if needed.(§›øñúÿÿÿÿ
+w
+java:S1104O"\Make separationOption a static final constant or non-public and provide accessors if needed.(˜Òûÿÿÿÿ
+w
+java:S1104Q"\Make silhouetteOption a static final constant or non-public and provide accessors if needed.(ªÙËıÿÿÿÿÿ
+s
+java:S1104S"]Make statisticalOption a static final constant or non-public and provide accessors if needed.(üÿüÒ
+p
+java:S1104V"ZMake dumpFileOption a static final constant or non-public and provide accessors if needed.(êı³„
+>
+java:S1659e"(Declare "outputFile" on a separate line.(ˆ¦Â…
+O	java:S106‘"9Replace this use of System.out or System.err by a logger.(ÒòÌ³
+E
+java:S1128"*Remove this unused import 'moa.MOAObject'.(ÉµÚùÿÿÿÿ
+\
+java:S1128"ARemove this unused import 'moa.evaluation.preview.LearningCurve'.(«ïŞ•ÿÿÿÿÿ
+C
+java:S1128"-Remove this unused import 'moa.gui.BatchCmd'.(àËØ„

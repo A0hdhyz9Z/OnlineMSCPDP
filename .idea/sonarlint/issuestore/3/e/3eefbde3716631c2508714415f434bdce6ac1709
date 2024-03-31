@@ -1,0 +1,17 @@
+
+Q	java:S110."<This class has 6 parents which is greater than 5 authorized.(Ç¼²¢
+t
+java:S11047"YMake datasetOption a static final constant or non-public and provide accessors if needed.(ø‘‡”ÿÿÿÿÿ
+w
+java:S1104:"aMake ratingPredictorOption a static final constant or non-public and provide accessors if needed.(¾¬É¯
+|
+java:S1104>"aMake sampleFrequencyOption a static final constant or non-public and provide accessors if needed.(æ¾©Òýÿÿÿÿ
+X
+java:S3518n"CMake sure this expression can't be zero before doing this division.(’Æ£
+œ
+java:S1186C"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(üÙõçýÿÿÿÿ
+Q	java:S125X"<This block of commented-out lines of code should be removed.(ÍÙ¼Í
+Q	java:S125g"<This block of commented-out lines of code should be removed.(„±™˜
+D
+java:S1905v")Remove this unnecessary cast to "double".(ŽñÆíúÿÿÿÿ
+R	java:S125…"<This block of commented-out lines of code should be removed.(» ¾€

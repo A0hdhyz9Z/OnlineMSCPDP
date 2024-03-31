@@ -1,0 +1,39 @@
+
+r
+java:S1104I"]Make baseLearnerOption a static final constant or non-public and provide accessors if needed.(¾®ë;
+y
+java:S1104M"^Make ensembleSizeOption a static final constant or non-public and provide accessors if needed.(ô‘ëôÿÿÿÿÿ
+j
+java:S1104P"TMake ensemble a static final constant or non-public and provide accessors if needed.(Ì¿€Ø
+[
+java:S2583¡"DChange this condition so that it does not always evaluate to "false"(—Åèó
+z
+java:S4144}"dUpdate this method so that its implementation is not identical to "getVotesForInstance" on line 110.(Š´«
+V	java:S125@"<This block of commented-out lines of code should be removed.(û¥‚ºüÿÿÿÿ
+V	java:S125a"<This block of commented-out lines of code should be removed.(¦¡İôÿÿÿÿÿ
+F
+java:S1905f"+Remove this unnecessary cast to "Instance".(à¿ñ“úÿÿÿÿ
+R
+java:S1854™";Remove this useless assignment to local variable "maxAtt2".(İ· 
+R
+java:S1854˜";Remove this useless assignment to local variable "maxAtt1".(†ÔúŸ
+W
+java:S1854—";Remove this useless assignment to local variable "minAtt2".(“Óı£ÿÿÿÿÿ
+R
+java:S1854–";Remove this useless assignment to local variable "minAtt1".(•Î±õ
+C
+java:S1481–",Remove this unused "minAtt1" local variable.(•Î±õ
+H
+java:S1481—",Remove this unused "minAtt2" local variable.(“Óı£ÿÿÿÿÿ
+C
+java:S1481˜",Remove this unused "maxAtt1" local variable.(†ÔúŸ
+C
+java:S1481™",Remove this unused "maxAtt2" local variable.(İ· 
+X
+java:S1075›"ARefactor your code to get this URI from a customizable parameter.(‚ÙöŸ
+]
+java:S1075œ"ARefactor your code to get this URI from a customizable parameter.(ì×Ï˜ûÿÿÿÿ
+^	java:S125©"<This block of commented-out lines of code should be removed.(ÿª÷ÿÿÿÿÿ8éËú—è1
+W	java:S125³"<This block of commented-out lines of code should be removed.(³¥Ì™úÿÿÿÿ
+N
+java:S1135½"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ

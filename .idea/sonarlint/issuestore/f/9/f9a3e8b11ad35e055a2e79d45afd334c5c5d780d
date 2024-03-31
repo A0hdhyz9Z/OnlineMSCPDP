@@ -1,0 +1,245 @@
+
+\	java:S112¥"FDefine and throw a dedicated exception instead of using a generic one.(èÍ½€
+J
+java:S3740K"/Provide the parametrized type for this generic.(ûƒÖ²şÿÿÿÿ
+E
+java:S3740L"/Provide the parametrized type for this generic.(À…ıÖ
+F
+java:S3740¡"/Provide the parametrized type for this generic.(âè™
+F
+java:S3740¡"/Provide the parametrized type for this generic.(âè™
+F
+java:S3740¢"/Provide the parametrized type for this generic.(ØìÀ
+F
+java:S3740¼"/Provide the parametrized type for this generic.(á©´”
+F
+java:S3740¼"/Provide the parametrized type for this generic.(á©´”
+K
+java:S3740À"/Provide the parametrized type for this generic.(Š¯Âüÿÿÿÿ
+K
+java:S3740Ã"/Provide the parametrized type for this generic.(×¨«šøÿÿÿÿ
+K
+java:S3740÷"/Provide the parametrized type for this generic.(ì½­„ùÿÿÿÿ
+F
+java:S3740ø"/Provide the parametrized type for this generic.(Èï¥°
+F
+java:S3740ù"/Provide the parametrized type for this generic.(ÖªÆ¸
+K
+java:S3740²"/Provide the parametrized type for this generic.(ÕƒíÉıÿÿÿÿ
+F
+java:S3740³"/Provide the parametrized type for this generic.(¥õƒË
+K
+java:S3740¼"/Provide the parametrized type for this generic.(ñÎÕŞşÿÿÿÿ
+K
+java:S3740¾"/Provide the parametrized type for this generic.(ÌõÕıÿÿÿÿ
+K
+java:S3740À"/Provide the parametrized type for this generic.(îå›ëúÿÿÿÿ
+F
+java:S3740Ä"/Provide the parametrized type for this generic.(¦«¾
+F
+java:S1066‰"/Merge this if statement with the enclosing one.(²û
+K
+java:S1066À"/Merge this if statement with the enclosing one.(œ„Ãûÿÿÿÿ
+~
+java:S1319K"cThe type of "CPQ" should be an interface such as "List" rather than the implementation "ArrayList".(ûƒÖ²şÿÿÿÿ
+}
+java:S1319¡"fThe type of "window" should be an interface such as "List" rather than the implementation "ArrayList".(âè™
+}
+java:S1319¼"fThe type of "window" should be an interface such as "List" rather than the implementation "ArrayList".(á©´”
+g	java:S117¡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âè™
+g	java:S117®"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥áï
+l	java:S117¶"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¶¾Ïÿÿÿÿÿ
+g	java:S117¹"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(½ÊÛ¢
+l	java:S117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÌ«Øøÿÿÿÿ
+g	java:S117Ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¦îï‡
+g	java:S117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ÎˆÍ
+g	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹…‘‘
+g	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã¼­®
+g	java:S117¦"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Ê¤Œ
+g	java:S117§"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—¸çÇ
+g	java:S117¿"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ÎˆÍ
+g	java:S117Ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¹…‘‘
+g	java:S117Å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ã¼­®
+l	java:S117Ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æƒÍäÿÿÿÿÿ
+f	java:S117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ˆêÊ
+f	java:S117É"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(³óôC
+l	java:S117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¢‡Æüÿÿÿÿ
+l	java:S117â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰œ°şÿÿÿÿ
+g	java:S117ã"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(”ªğØ
+f	java:S117ä"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÖÓß
+g	java:S117å"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‡€„µ
+g	java:S117æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢Á¤Î
+g	java:S117ç"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Û´‡î
+l	java:S117ı"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æÀÿ¬ÿÿÿÿÿ
+g	java:S117‰"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Ê¤Œ
+g	java:S117Š"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—¸çÇ
+P	java:S110A"<This class has 6 parents which is greater than 5 authorized.(úô˜
+j
+java:S1104K"OMake CPQ a static final constant or non-public and provide accessors if needed.(ûƒÖ²şÿÿÿÿ
+h
+java:S1104L"RMake window a static final constant or non-public and provide accessors if needed.(À…ıÖ
+q
+java:S1104N"VMake windowSize a static final constant or non-public and provide accessors if needed.(­¿‘šûÿÿÿÿ
+r
+java:S1104O"WMake numOfshortD a static final constant or non-public and provide accessors if needed.(³ÄÅıÿÿÿÿ
+t
+java:S1104P"^Make maxAllowedDistance a static final constant or non-public and provide accessors if needed.(‡ÀÜ†
+h
+java:S1104Q"SMake cpqSize a static final constant or non-public and provide accessors if needed.(Ä‚ë.
+o
+java:S1104S"YMake trainWithInst a static final constant or non-public and provide accessors if needed.(û‘ä°
+h
+java:S1104T"RMake maxAvg a static final constant or non-public and provide accessors if needed.(‡®ğ—
+d
+java:S1104U"OMake trw a static final constant or non-public and provide accessors if needed.(Ïš?
+k
+java:S1104V"VMake suitableCP a static final constant or non-public and provide accessors if needed.(È‚’
+h
+java:S1104W"MMake y a static final constant or non-public and provide accessors if needed.(ßÕÊ‹ùÿÿÿÿ
+t
+java:S1104o"YMake learnerOption a static final constant or non-public and provide accessors if needed.(ĞŞÁşûÿÿÿÿ
+s
+java:S1104r"XMake streamOption a static final constant or non-public and provide accessors if needed.(ÕâıÛşÿÿÿÿ
+v
+java:S1104u"[Make evaluatorOption a static final constant or non-public and provide accessors if needed.(ı˜ßøøÿÿÿÿ
+u
+java:S1104y"_Make instanceLimitOption a static final constant or non-public and provide accessors if needed.(¬³İÈ
+v
+java:S1104|"[Make timeLimitOption a static final constant or non-public and provide accessors if needed.(‡©‘¨ıÿÿÿÿ
+w
+java:S1104"aMake sampleFrequencyOption a static final constant or non-public and provide accessors if needed.(À®Üï
+z
+java:S1104‚"cMake memCheckFrequencyOption a static final constant or non-public and provide accessors if needed.(“ÎàÇ
+q
+java:S1104…"ZMake dumpFileOption a static final constant or non-public and provide accessors if needed.(Ç¦ÌŸ
+‚
+java:S1104ˆ"fMake outputPredictionFileOption a static final constant or non-public and provide accessors if needed.(Í¦Óøÿÿÿÿ
+s
+java:S1104Œ"WMake widthOption a static final constant or non-public and provide accessors if needed.(•¯´ùøÿÿÿÿ
+n
+java:S1104"WMake alphaOption a static final constant or non-public and provide accessors if needed.(·©ëŠ
+K
+java:S1444N"0Make this "public static windowSize" field final(­¿‘šûÿÿÿÿ
+L
+java:S1444O"1Make this "public static numOfshortD" field final(³ÄÅıÿÿÿÿ
+N
+java:S1444P"8Make this "public static maxAllowedDistance" field final(‡ÀÜ†
+B
+java:S1444Q"-Make this "public static cpqSize" field final(Ä‚ë.
+h	java:S116K"NRename this field "CPQ" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ûƒÖ²şÿÿÿÿ
+@
+java:S1948K"%Make "CPQ" transient or serializable.(ûƒÖ²şÿÿÿÿ
+>
+java:S1948L"(Make "window" transient or serializable.(À…ıÖ
+Q	java:S125k"<This block of commented-out lines of code should be removed.(œÙŞÜ
+R
+java:S2696”"6Make the enclosing method "static" or remove this set.(«¶¯øûÿÿÿÿ
+Q
+java:S2209”"5Change this instance-reference to a static reference.(«¶¯øûÿÿÿÿ
+R
+java:S2696•"6Make the enclosing method "static" or remove this set.(ÿƒ™¼şÿÿÿÿ
+Q
+java:S2209•"5Change this instance-reference to a static reference.(ÿƒ™¼şÿÿÿÿ
+M
+java:S2696–"6Make the enclosing method "static" or remove this set.(Ü–
+L
+java:S2209–"5Change this instance-reference to a static reference.(Ü–
+M
+java:S2696—"6Make the enclosing method "static" or remove this set.(‰ÃğÉ
+L
+java:S2209—"5Change this instance-reference to a static reference.(‰ÃğÉ
+O	java:S106™"9Replace this use of System.out or System.err by a logger.(­¨§…
+U
+java:S1155­">Use isEmpty() to check whether the collection is empty or not.(òğœÑ
+S
+java:S1854à"7Remove this useless assignment to local variable "min".(³Û¹êúÿÿÿÿ
+S
+java:S1854ß"7Remove this useless assignment to local variable "max".(ê€ª»ùÿÿÿÿ
+E
+java:S1905È")Remove this unnecessary cast to "double".(ìÍà¾ÿÿÿÿÿ
+E
+java:S1905È")Remove this unnecessary cast to "double".(ìÍà¾ÿÿÿÿÿ
+N
+java:S1481Ò"2Remove this unused "avgDistNormal" local variable.(ÿµ–ëùÿÿÿÿ
+D
+java:S1481ß"(Remove this unused "max" local variable.(ê€ª»ùÿÿÿÿ
+D
+java:S1481à"(Remove this unused "min" local variable.(³Û¹êúÿÿÿÿ
+W	java:S125â"<This block of commented-out lines of code should be removed.(ñ÷†²øÿÿÿÿ
+o
+java:S3776î"SRefactor this method to reduce its Cognitive Complexity from 166 to the 15 allowed.(°õİøÿÿÿÿ
+R	java:S125ğ"<This block of commented-out lines of code should be removed.(·äãÿ
+R	java:S125ˆ"<This block of commented-out lines of code should be removed.(©ÎÒ®
+O	java:S106Š"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+W	java:S125©"<This block of commented-out lines of code should be removed.(ÈåŠ»ÿÿÿÿÿ
+A
+java:S1905³"*Remove this unnecessary cast to "Example".(¥õƒË
+R	java:S125¿"<This block of commented-out lines of code should be removed.(Ì¤œÈ
+C
+java:S1125€"'Remove the unnecessary boolean literal.(Êõ¼³ÿÿÿÿÿ
+R	java:S125†"<This block of commented-out lines of code should be removed.(Í†õ´
+C
+java:S1125"'Remove the unnecessary boolean literal.(Êõ¼³ÿÿÿÿÿ
+C
+java:S1125¸"'Remove the unnecessary boolean literal.(Êõ¼³ÿÿÿÿÿ
+R	java:S125Á"<This block of commented-out lines of code should be removed.(®ƒë±
+Q	java:S125Ñ"<This block of commented-out lines of code should be removed.(àºĞl
+C
+java:S1125Ó"'Remove the unnecessary boolean literal.(Ü¼öúúÿÿÿÿ
+:
+java:S2153à"Remove the boxing to "Double".(€¾’–ûÿÿÿÿ
+<
+java:S2129à" Remove this "Double" constructor(€¾’–ûÿÿÿÿ
+C
+java:S1481õ"'Remove this unused "df" local variable.(èÙ¦üÿÿÿÿ
+R	java:S125†"<This block of commented-out lines of code should be removed.(è«åƒ
+G
+java:S1481œ"0Remove this unused "averageRec0" local variable.(ÛÆê²
+L
+java:S1481 "0Remove this unused "averageRec1" local variable.(„£Ù¾ıÿÿÿÿ
+E
+java:S1481¦".Remove this unused "avg_gmean" local variable.(¶Ê¤Œ
+K
+java:S1481§"4Remove this unused "avg_diffRecalls" local variable.(—¸çÇ
+W	java:S125±"<This block of commented-out lines of code should be removed.(ø„¿¥ùÿÿÿÿ
+T	java:S106´"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+F
+java:S1481¿"/Remove this unused "each_gmean" local variable.(–ÎˆÍ
+I
+java:S1481Ä"2Remove this unused "telapsed_nano" local variable.(¹…‘‘
+K
+java:S1481Å"4Remove this unused "telapsed_second" local variable.(Ã¼­®
+H
+java:S1481æ"*Remove this unused "Gmean" local variable.(¢Á¤Î8ßÄö¡Õ1
+E
+java:S1481ç".Remove this unused "Precision" local variable.(Û´‡î
+B
+java:S1481è"+Remove this unused "recall" local variable.(•Û³
+T	java:S106–"9Replace this use of System.out or System.err by a logger.(Ï øªúÿÿÿÿ
+W	java:S125”"<This block of commented-out lines of code should be removed.(ø„¿¥ùÿÿÿÿ
+O	java:S106—"9Replace this use of System.out or System.err by a logger.(˜«ñ
+O	java:S106˜"9Replace this use of System.out or System.err by a logger.(ãŠßÔ
+T	java:S106™"9Replace this use of System.out or System.err by a logger.(›ë†¿ùÿÿÿÿ
+O	java:S106š"9Replace this use of System.out or System.err by a logger.(ÏƒÉ•
+T	java:S106›"9Replace this use of System.out or System.err by a logger.(¿øúÿÿÿÿ
+O	java:S106œ"9Replace this use of System.out or System.err by a logger.(ÊÊ¥¨
+T	java:S106"9Replace this use of System.out or System.err by a logger.(ÔÅÜ¹ûÿÿÿÿ
+R	java:S125"<This block of commented-out lines of code should be removed.(Ü¬°—
+T	java:S106Ÿ"9Replace this use of System.out or System.err by a logger.(İâÈœıÿÿÿÿ
+W	java:S125¡"<This block of commented-out lines of code should be removed.(Ü†‡šıÿÿÿÿ
+Y	java:S125®"<This block of commented-out lines of code should be removed.(åšË–8É¯ö¡Õ1
+X	java:S125½"<This block of commented-out lines of code should be removed.(‘¯é`8æÄö¡Õ1
+T	java:S106Â"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+W	java:S125È"<This block of commented-out lines of code should be removed.(û«ä¨ùÿÿÿÿ
+f
+java:S1128,"JRemove this unused import 'jdk.nashorn.internal.ir.annotations.Reference'.( —ê28ÉÊÛ–Õ1
+L
+java:S11280"1Remove this unused import 'moa.core.TimingUtils'.(ÿ„Àôøÿÿÿÿ
+g
+java:S11282"RRemove this unused import 'moa.evaluation.EWMAClassificationPerformanceEvaluator'.(¹Š×
+j
+java:S11286"TRemove this unused import 'moa.evaluation.WindowClassificationPerformanceEvaluator'.(áÛŒ
+j
+java:S1128:"TRemove this unnecessary import: same package classes are always implicitly imported.(¸ìÁ»
+o
+java:S1128;"TRemove this unnecessary import: same package classes are always implicitly imported.(¢¤ÓÈûÿÿÿÿ
