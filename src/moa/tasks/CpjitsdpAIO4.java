@@ -193,13 +193,14 @@ public class CpjitsdpAIO4 extends ClassificationMainTask {
 //
 //            int LA_LDtmp = la + ld;
 
-//            //AEEEM
-//            Attribute c = new Attribute("ck_oo_numberOfLinesOfCode");
-//            int LOCtmp = (int) ((Instance) trainInst.getData()).value(c);
 
-            //Z-JIRA ReLink
-            Attribute c = new Attribute("CountLineCode");
+            // AEEEM
+            Attribute c = new Attribute("ck_oo_numberOfLinesOfCode");
             int LOCtmp = (int) ((Instance) trainInst.getData()).value(c);
+
+//            // Z-JIRA ReLink
+//            Attribute c = new Attribute("CountLineCode");
+//            int LOCtmp = (int) ((Instance) trainInst.getData()).value(c);
 
 
             double probPostmp = .0;
@@ -207,11 +208,11 @@ public class CpjitsdpAIO4 extends ClassificationMainTask {
 //            System.out.println(trainInst.getData());
 
             //29  68  64
-            ((Instance) trainInst.getData()).deleteAttributeAt(29);
-            ((Instance) testInst.getData()).deleteAttributeAt(29);
+            ((Instance) trainInst.getData()).deleteAttributeAt(64);
+            ((Instance) testInst.getData()).deleteAttributeAt(64);
             //28  67  63
-            ((Instance) trainInst.getData()).deleteAttributeAt(28);
-            ((Instance) testInst.getData()).deleteAttributeAt(28);
+            ((Instance) trainInst.getData()).deleteAttributeAt(63);
+            ((Instance) testInst.getData()).deleteAttributeAt(63);
 
 
             int predictedClass = 0;
@@ -222,6 +223,10 @@ public class CpjitsdpAIO4 extends ClassificationMainTask {
 
             if (commit_type == NOT_BUG) {
 //                ((Instance) trainInst.getData()).setClassValue(0);
+//                learner.trainOnInstance(trainInst);
+                if (project_no == sourcedata) {
+                    learner.trainOnInstance(trainInst);
+                }
                 if (project_no == pNo) {
                     double[] prediction = learner.getVotesForInstance(testInst);
                     if (prediction.length > 1) {
@@ -257,14 +262,25 @@ public class CpjitsdpAIO4 extends ClassificationMainTask {
                                 + (((Instance) testInst.getData()).classIsMissing() == true ? " ? " : trueClass));
                     }
                     evaluator.addResult(testInst, prediction);
+                    learner.trainOnInstance(trainInst);
                 } else {
                     write_results = false;
                 }
 
+//                if (project_no != pNo) {
+//                    learner.trainOnInstance(trainInst);
+//                    traincount++;
+//                }
 
-                learner.trainOnInstance(trainInst);
-                traincount++;
+//                learner.trainOnInstance(trainInst);
+//                traincount++;
+
 //                if (project_no == sourcedata) {
+//                    learner.trainOnInstance(trainInst);
+//                    traincount++;
+//                }
+
+//                if (project_no == sourcedata ) {
 //                    learner.trainOnInstance(trainInst);
 //                    traincount++;
 //                }
@@ -273,6 +289,10 @@ public class CpjitsdpAIO4 extends ClassificationMainTask {
             // If bug found, then train.
             if (commit_type == BUG_FOUND) {
 //                ((Instance) trainInst.getData()).setClassValue(1);
+//                learner.trainOnInstance(trainInst);
+                if (project_no == sourcedata) {
+                    learner.trainOnInstance(trainInst);
+                }
                 if (project_no == pNo) {
                     double[] prediction = learner.getVotesForInstance(testInst);
                     if (prediction.length > 1) {
@@ -308,40 +328,40 @@ public class CpjitsdpAIO4 extends ClassificationMainTask {
                                 + (((Instance) testInst.getData()).classIsMissing() == true ? " ? " : trueClass));
                     }
                     evaluator.addResult(testInst, prediction);
+                    learner.trainOnInstance(trainInst);
                 } else {
                     write_results = false;
                 }
 
 
-                learner.trainOnInstance(trainInst);
-                traincount++;
+//                if (project_no != pNo) {
+//                    learner.trainOnInstance(trainInst);
+//                    traincount++;
+//                }
+
+//                learner.trainOnInstance(trainInst);
+//                traincount++;
+
+//                if (project_no == sourcedata) {
+//                    learner.trainOnInstance(trainInst);
+//                    traincount++;
+//                }
+
 //                if (project_no == sourcedata) {
 //                    learner.trainOnInstance(trainInst);
 //                    traincount++;
 //                }
             }
 
-            // If non-test instance and bug not found within w days, then only train as non-defective.
-            // Do not test.
-//            if (commit_type == BUG_NOT_DISCOVERED_W_DAYS_NOT_TEST) {
-//                ((Instance) trainInst.getData()).setClassValue(0);
-////                learner.trainOnInstance(trainInst);
-//                if (project_no == sourcedata) {
-//                    learner.trainOnInstance(trainInst);
-//                    traincount++;
-//                }
-//                write_results = false;
-//            }
-
             if (project_no == pNo && write_results) {
                 instancesProcessed++;
                 if (instancesProcessed % this.sampleFrequencyOption.getValue() == 0
                         || stream.hasMoreInstances() == false) {
 
-                    String ts = (((Instance) testInst.getData()).value(27) + "");
+                    String ts = (((Instance) testInst.getData()).value(62) + "");
                     int idxE = ts.indexOf("E");
 
-                    ts = new BigDecimal(((Instance) testInst.getData()).value(27) + "").intValue() + "";
+                    ts = new BigDecimal(((Instance) testInst.getData()).value(62) + "").intValue() + "";
 
                     if (idxE > 0) {
 

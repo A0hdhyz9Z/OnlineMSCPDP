@@ -1,15 +1,11 @@
 
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-a
-1results/aio/spring-integration-All-in-One-ORB.csv,3\8\387cb4421274d0b10d0280073baabb5994f08bb9
 :
 
 .classpath,3\5\354079a72b91a4280407c16a36f47d1986fd85a5
 8
 .project,f\8\f8b41ce76d7b80d2b47e91b5f92c15f00eccf187
-U
-%results/aio/tomcat-All-in-One-ORB.csv,0\d\0dc5333edc87d1b26a83435b6e3a0622d43216eb
 V
 &src/moa/tasks/StandardTaskMonitor.java,e\a\ea98fce4a8126656c64d34ac3841f838ac2575e9
 X
@@ -24,8 +20,6 @@ H
 src/moa/core/SizeOf.java,c\d\cd10746c31f9de041f355304bacdff59e353533d
 N
 src/moa/AbstractMOAObject.java,7\5\7560b369955f9a4b254fde2d7bca3a847893602d
->
-MOA_SPDISC.iml,6\7\6799c89d75c57d943d7ace4d2414952a2f1e3b92
 S
 #src/moa/tasks/CpjitsdpOPFilter.java,4\4\44db916530747e5233de70c675314d9a4c689feb
 T
@@ -84,3 +78,17 @@ e
 5src/moa/evaluation/EachClassPerformanceEvaluator.java,d\2\d245ab462efef007021c7fe0963d8a90dec4e8d7
 Q
 !src/moa/classifiers/meta/OOB.java,b\4\b4f4042ddad2bf133936179a1105c69af4ba8def
+e
+5src/com/github/javacliparser/AbstractClassOption.java,a\7\a7f6c83ff30d9d3c99160fcde7a81e494c5b75d5
+]
+-src/com/github/javacliparser/ClassOption.java,0\9\0907aa51caa24f3db421e50620e40526af1c90bf
+Y
+)src/moa/tasks/EvaluatePrequentialWFL.java,a\2\a26a5b9d214869f47c57e8552bf24952ef6d9cac
+`
+0src/com/github/javacliparser/AbstractOption.java,8\6\868340ec4b3ee466d4e2fe9554b2f781693ea353
+W
+'src/cpjitsdpexperiment/ExpOPFilter.java,0\7\0734d497d8047e22b7a37c6c7d952a232ad037e3
+O
+src/moa/tasks/CpjitsdpAIO1.java,d\0\d0f2719c1554712a929bd6be6a001942de22c6f5
+O
+src/moa/tasks/CpjitsdpAIO0.java,2\d\2d5043a843339897f3729b1218a14861f0c00fbd
