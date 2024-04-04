@@ -1,0 +1,19 @@
+
+\	java:S112¢"FDefine and throw a dedicated exception instead of using a generic one.(Ú‚•ì
+\	java:S112¨"FDefine and throw a dedicated exception instead of using a generic one.(ÃÔ÷ý
+T
+java:S5993="9Change the visibility of this constructor to "protected".(“«Ã–ýÿÿÿÿ
+T
+java:S5993N"9Change the visibility of this constructor to "protected".(“«Ã–ýÿÿÿÿ
+I
+java:S1948'".Make "currentValue" transient or serializable.(Ôð©òøÿÿÿÿ
+Q	java:S125a"<This block of commented-out lines of code should be removed.(’õ¬
+Q	java:S125n"<This block of commented-out lines of code should be removed.(îŽÖ¨
+W	java:S125"<This block of commented-out lines of code should be removed.(Š¢šŒúÿÿÿÿ
+Q	java:S125˜"<This block of commented-out lines of code should be removed.(—¤”I
+W	java:S125Â"<This block of commented-out lines of code should be removed.(šßÔ…úÿÿÿÿ
+z
+java:S3038Í"^"getValueAsCLIString" is defined in the "Option" interface and can be removed from this class.(òº‘ïûÿÿÿÿ
+{
+java:S3038Ð"_"setValueViaCLIString" is defined in the "Option" interface and can be removed from this class.(òº‘ïûÿÿÿÿ
+R	java:S125Ô"<This block of commented-out lines of code should be removed.(ê‡¶ã

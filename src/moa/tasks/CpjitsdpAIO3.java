@@ -218,6 +218,9 @@ public class CpjitsdpAIO3 extends ClassificationMainTask {
 
 
             if (commit_type == NOT_BUG) {
+                if (project_no == sourcedata) {
+                    learner.trainOnInstance(trainInst);
+                }
                 if (project_no == pNo) {
                     double[] prediction = learner.getVotesForInstance(testInst);
                     if (prediction.length > 1) {
@@ -253,12 +256,25 @@ public class CpjitsdpAIO3 extends ClassificationMainTask {
                                 + (((Instance) testInst.getData()).classIsMissing() == true ? " ? " : trueClass));
                     }
                     evaluator.addResult(testInst, prediction);
+                    learner.trainOnInstance(trainInst);
                 } else {
                     write_results = false;
                 }
 
-                learner.trainOnInstance(trainInst);
+//                if (project_no != pNo) {
+//                    learner.trainOnInstance(trainInst);
+//                    traincount++;
+//                }
+
+//                learner.trainOnInstance(trainInst);
+//                traincount++;
+
 //                if (project_no == sourcedata) {
+//                    learner.trainOnInstance(trainInst);
+//                    traincount++;
+//                }
+
+//                if (project_no == sourcedata ) {
 //                    learner.trainOnInstance(trainInst);
 //                    traincount++;
 //                }
@@ -345,16 +361,17 @@ public class CpjitsdpAIO3 extends ClassificationMainTask {
                             + (((Instance) testInst.getData()).classIsMissing() == true ? " ? " : trueClass));
                 }
                 evaluator.addResult(testInst, prediction);
+                learner.trainOnInstance(trainInst);
             }
 
             // If bug found, then train.
             if (commit_type == BUG_FOUND) {
                 ((Instance) trainInst.getData()).setClassValue(1);
-                learner.trainOnInstance(trainInst);
-//                if (project_no == sourcedata) {
-//                    learner.trainOnInstance(trainInst);
-//                    traincount++;
-//                }
+//                learner.trainOnInstance(trainInst);
+                if (project_no == sourcedata) {
+                    learner.trainOnInstance(trainInst);
+                    traincount++;
+                }
 
                 write_results = false;
             }
@@ -363,11 +380,11 @@ public class CpjitsdpAIO3 extends ClassificationMainTask {
             // Do not test.
             if (commit_type == BUG_NOT_DISCOVERED_W_DAYS_NOT_TEST) {
                 ((Instance) trainInst.getData()).setClassValue(0);
-                learner.trainOnInstance(trainInst);
-//                if (project_no == sourcedata) {
-//                    learner.trainOnInstance(trainInst);
-//                    traincount++;
-//                }
+//                learner.trainOnInstance(trainInst);
+                if (project_no == sourcedata) {
+                    learner.trainOnInstance(trainInst);
+                    traincount++;
+                }
                 write_results = false;
             }
 

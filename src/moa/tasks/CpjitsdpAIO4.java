@@ -194,25 +194,29 @@ public class CpjitsdpAIO4 extends ClassificationMainTask {
 //            int LA_LDtmp = la + ld;
 
 
-            // AEEEM
-            Attribute c = new Attribute("ck_oo_numberOfLinesOfCode");
-            int LOCtmp = (int) ((Instance) trainInst.getData()).value(c);
+//            // AEEEM
+//            Attribute c = new Attribute("ck_oo_numberOfLinesOfCode");
+//            int LOCtmp = (int) ((Instance) trainInst.getData()).value(c);
 
 //            // Z-JIRA ReLink
 //            Attribute c = new Attribute("CountLineCode");
 //            int LOCtmp = (int) ((Instance) trainInst.getData()).value(c);
+
+            // PROMISE
+            Attribute c = new Attribute("loc");
+            int LOCtmp = (int) ((Instance) trainInst.getData()).value(c);
 
 
             double probPostmp = .0;
 
 //            System.out.println(trainInst.getData());
 
-            //29  68  64
-            ((Instance) trainInst.getData()).deleteAttributeAt(64);
-            ((Instance) testInst.getData()).deleteAttributeAt(64);
-            //28  67  63
-            ((Instance) trainInst.getData()).deleteAttributeAt(63);
-            ((Instance) testInst.getData()).deleteAttributeAt(63);
+            //29  68  64  23
+            ((Instance) trainInst.getData()).deleteAttributeAt(23);
+            ((Instance) testInst.getData()).deleteAttributeAt(23);
+            //28  67  63  22
+            ((Instance) trainInst.getData()).deleteAttributeAt(22);
+            ((Instance) testInst.getData()).deleteAttributeAt(22);
 
 
             int predictedClass = 0;
@@ -358,10 +362,10 @@ public class CpjitsdpAIO4 extends ClassificationMainTask {
                 if (instancesProcessed % this.sampleFrequencyOption.getValue() == 0
                         || stream.hasMoreInstances() == false) {
 
-                    String ts = (((Instance) testInst.getData()).value(62) + "");
+                    String ts = (((Instance) testInst.getData()).value(21) + "");
                     int idxE = ts.indexOf("E");
 
-                    ts = new BigDecimal(((Instance) testInst.getData()).value(62) + "").intValue() + "";
+                    ts = new BigDecimal(((Instance) testInst.getData()).value(21) + "").intValue() + "";
 
                     if (idxE > 0) {
 

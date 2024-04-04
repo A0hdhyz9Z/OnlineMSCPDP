@@ -72,7 +72,7 @@ public class ExpAIO {
 
                         /*** OOB ***/
 //                        String task = "CpjitsdpAIO3  -l (meta.ggc2.meta.WaitForLabelsOOB -i 15 -s " + ens + " -t " + theta + " -w " + waitingTime + ")  -s  (ArffFileStream -f (datasets/" + datasetsArray[dsIdx] + ".arff) -c 15) -e (FadingFactorEachClassPerformanceEvaluator -a 0.99) -f 1 -d results/" + datasetsArray[dsIdx] + "-AIO-OOB-" + arrId + "-source-" + datasetsArray[sourcedataset] + ".csv";
-                        String task = "CpjitsdpAIO3  -l (meta.ggc2.meta.WaitForLabelsOOB -i 15 -s " + ens + " -t " + theta + " -w " + waitingTime + ")  -s  (ArffFileStream -f (Commit/" + datasetsArray[dsIdx] + ".arff) -c 15) -e (FadingFactorEachClassPerformanceEvaluator -a 0.99) -f 1 -d results/" + datasetsArray[sourcedataset] + "_" + datasetsArray[dsIdx] + "-" + arrId + ".csv";
+                        String task = "CpjitsdpAIO3  -l (meta.ggc2.meta.WaitForLabelsOOB -i 15 -s " + ens + " -t " + theta + " -w " + waitingTime + ")  -s  (ArffFileStream -f (datasets/Commit/" + datasetsArray[dsIdx] + ".arff) -c 15) -e (FadingFactorEachClassPerformanceEvaluator -a 0.99) -f 1 -d results/" + datasetsArray[sourcedataset] + "_" + datasetsArray[dsIdx] + "-" + arrId + ".csv";
 
                         /*** ORB ***/
                         // String task = "CpjitsdpAIO -l (spdisc.meta.WFL_OO_ORB_Oza -i 15 -s "+ens+" -t "+theta+" -w "+waitingTime+" -p "+paramsORB+")  -s  (ArffFileStream -f (datasets/"+datasetsArray[dsIdx]+".arff) -c 15) -e (FadingFactorEachClassPerformanceEvaluator -a 0.99) -f 1 -d results/"+datasetsArray[dsIdx]+"-AIO-ORB-("+paramsORB.replaceAll(";", "-")+")-"+arrId+".csv";

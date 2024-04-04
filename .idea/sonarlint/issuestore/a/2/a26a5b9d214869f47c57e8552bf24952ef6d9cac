@@ -1,0 +1,77 @@
+
+\	java:S112µ"FDefine and throw a dedicated exception instead of using a generic one.(èÍ½€
+K
+java:S3740ˆ"/Provide the parametrized type for this generic.(ì½­„ùÿÿÿÿ
+F
+java:S3740‰"/Provide the parametrized type for this generic.(Èï¥°
+F
+java:S3740Š"/Provide the parametrized type for this generic.(ÖªÆ¸
+K
+java:S3740¾"/Provide the parametrized type for this generic.(ÕƒíÉıÿÿÿÿ
+F
+java:S3740¿"/Provide the parametrized type for this generic.(¥õƒË
+F
+java:S1066™"/Merge this if statement with the enclosing one.(²û
+g	java:S117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¥áï
+l	java:S117Â"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â¶¾Ïÿÿÿÿÿ
+g	java:S117Ê"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–ÎˆÍ
+g	java:S117ú"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¶Ê¤Œ
+g	java:S117û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(—¸çÇ
+V	java:S110B"<This class has 6 parents which is greater than 5 authorized.(å°ÏÉıÿÿÿÿ
+t
+java:S1104]"YMake learnerOption a static final constant or non-public and provide accessors if needed.(ĞŞÁşûÿÿÿÿ
+s
+java:S1104`"XMake streamOption a static final constant or non-public and provide accessors if needed.(ÕâıÛşÿÿÿÿ
+v
+java:S1104c"[Make evaluatorOption a static final constant or non-public and provide accessors if needed.(ı˜ßøøÿÿÿÿ
+u
+java:S1104g"_Make instanceLimitOption a static final constant or non-public and provide accessors if needed.(¬³İÈ
+v
+java:S1104j"[Make timeLimitOption a static final constant or non-public and provide accessors if needed.(‡©‘¨ıÿÿÿÿ
+w
+java:S1104m"aMake sampleFrequencyOption a static final constant or non-public and provide accessors if needed.(À®Üï
+y
+java:S1104p"cMake memCheckFrequencyOption a static final constant or non-public and provide accessors if needed.(“ÎàÇ
+p
+java:S1104s"ZMake dumpFileOption a static final constant or non-public and provide accessors if needed.(Ç¦ÌŸ
+
+java:S1104v"fMake outputPredictionFileOption a static final constant or non-public and provide accessors if needed.(Í¦Óøÿÿÿÿ
+r
+java:S1104z"WMake widthOption a static final constant or non-public and provide accessors if needed.(•¯´ùøÿÿÿÿ
+m
+java:S1104|"WMake alphaOption a static final constant or non-public and provide accessors if needed.(·©ëŠ
+n
+java:S3776†"RRefactor this method to reduce its Cognitive Complexity from 83 to the 15 allowed.(°õİøÿÿÿÿ
+R	java:S125˜"<This block of commented-out lines of code should be removed.(©ÎÒ®
+O	java:S106š"9Replace this use of System.out or System.err by a logger.(ÆÀûı
+A
+java:S1905¿"*Remove this unnecessary cast to "Example".(¥õƒË
+C
+java:S1125Ü"'Remove the unnecessary boolean literal.(Êõ¼³ÿÿÿÿÿ
+R	java:S125à"<This block of commented-out lines of code should be removed.(÷ßµÂ
+C
+java:S1125ú"'Remove the unnecessary boolean literal.(Êõ¼³ÿÿÿÿÿ
+R	java:S125ş"<This block of commented-out lines of code should be removed.(÷ßµÂ
+C
+java:S1125™"'Remove the unnecessary boolean literal.(Êõ¼³ÿÿÿÿÿ
+C
+java:S1125ª"'Remove the unnecessary boolean literal.(Ü¼öúúÿÿÿÿ
+:
+java:S2153·"Remove the boxing to "Double".(€¾’–ûÿÿÿÿ
+<
+java:S2129·" Remove this "Double" constructor(€¾’–ûÿÿÿÿ
+W	java:S125Ó"<This block of commented-out lines of code should be removed.(¸ôÔÊşÿÿÿÿ
+R	java:S125Ú"<This block of commented-out lines of code should be removed.(¯´§
+T	java:S106‡"9Replace this use of System.out or System.err by a logger.(Ï øªúÿÿÿÿ
+O	java:S106ˆ"9Replace this use of System.out or System.err by a logger.(˜«ñ
+O	java:S106‰"9Replace this use of System.out or System.err by a logger.(ãŠßÔ
+T	java:S106Š"9Replace this use of System.out or System.err by a logger.(›ë†¿ùÿÿÿÿ
+O	java:S106‹"9Replace this use of System.out or System.err by a logger.(ÏƒÉ•
+T	java:S106Œ"9Replace this use of System.out or System.err by a logger.(¿øúÿÿÿÿ
+T	java:S106‘"9Replace this use of System.out or System.err by a logger.(©şêÜúÿÿÿÿ
+L
+java:S1128/"1Remove this unused import 'moa.core.TimingUtils'.(ÿ„Àôøÿÿÿÿ
+g
+java:S11281"RRemove this unused import 'moa.evaluation.EWMAClassificationPerformanceEvaluator'.(¹Š×
+j
+java:S11285"TRemove this unused import 'moa.evaluation.WindowClassificationPerformanceEvaluator'.(áÛŒ

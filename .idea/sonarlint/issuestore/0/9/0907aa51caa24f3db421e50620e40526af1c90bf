@@ -1,0 +1,23 @@
+
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(Éíÿb
+a	java:S112—"FDefine and throw a dedicated exception instead of using a generic one.(Éê‘ïüÿÿÿÿ
+a	java:S112¯"FDefine and throw a dedicated exception instead of using a generic one.(×½Ûíÿÿÿÿÿ
+\	java:S112º"FDefine and throw a dedicated exception instead of using a generic one.(Ö·®Æ
+[	java:S112n"FDefine and throw a dedicated exception instead of using a generic one.(¼×İ³
+`
+java:S2259µ"DA "NullPointerException" could be thrown; "config" is nullable here.(æÑ¹îüÿÿÿÿ
+`
+java:S2583¯"DChange this condition so that it does not always evaluate to "false"(×½Ûíÿÿÿÿÿ
+V	java:S125"<This block of commented-out lines of code should be removed.(á—Îšøÿÿÿÿ
+V	java:S125Q"<This block of commented-out lines of code should be removed.(ã€ûÿÿÿÿ
+h
+java:S3776m"RRefactor this method to reduce its Cognitive Complexity from 25 to the 15 allowed.(³×üÓ
+A
+java:S1181„"%Catch Exception instead of Throwable.(Ñéùşÿÿÿÿ
+A
+java:S1181"%Catch Exception instead of Throwable.(ØÄæùÿÿÿÿ
+R	java:S125‰"<This block of commented-out lines of code should be removed.(ºáé
+W	java:S125"<This block of commented-out lines of code should be removed.(éØ»Úûÿÿÿÿ
+R	java:S125›"<This block of commented-out lines of code should be removed.(ÌÙ¯”
+W	java:S125§"<This block of commented-out lines of code should be removed.(Ë‡¢ùÿÿÿÿ
+R	java:S125Á"<This block of commented-out lines of code should be removed.(ìæ¢ñ
