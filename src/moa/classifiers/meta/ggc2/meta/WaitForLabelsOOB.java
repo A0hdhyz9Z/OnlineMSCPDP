@@ -153,9 +153,11 @@ public IntOption unixTimeStampIndex = new IntOption("unixTimeStampIndex", 'i',
 			Instant timeTrainingExampleToPop = new Instant((long)trainingExampleToPop.value(unixTimeStampIndex.getValue())*1000);
 			Days daysWaited = Days.daysBetween(timeTrainingExampleToPop,timeTestingInstance);
 
-			if (daysWaited.getDays() >= waitingTime.getValue()) {
-				
-				
+//			if (daysWaited.getDays() >= waitingTime.getValue()) {
+			if (trainingExamplesQueue.size()!=0) {
+
+//				System.out.println((long)trainingExampleToPop.value(unixTimeStampIndex.getValue()));
+
 				//if it is non defective instance, store in the array of non defective reference instances
 				if(trainingExampleToPop.classValue() == 0){
 					trainingExampleToPop.deleteAttributeAt(unixTimeStampIndex.getValue()); // remove the time stamp before using the example for training

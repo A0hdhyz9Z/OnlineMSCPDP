@@ -44,14 +44,14 @@ public class ExpAIO_others {
 //        String paramsORB = "100;0.4;10;12;1.5;3";
 
 //        String[] datasetsArray = {"Apache", "Safe", "Zxing"};                 //ReLink
-//        String[] datasetsArray = {"activemq-5.0.0", "derby-10.5.1.1", "groovy-1_6_BETA_1",
-//                "hbase-0.94.0", "hive-0.9.0", "jruby-1.1", "wicket-1.3.0-beta2"};           //Z-JIRA
-        String[] datasetsArray = {"EQ", "JDT", "Lucene", "Mylyn", "PDE"};      //AEEEM
+        String[] datasetsArray = {"activemq-5.0.0", "derby-10.5.1.1", "groovy-1_6_BETA_1",
+                "hbase-0.94.0", "hive-0.9.0", "jruby-1.1", "wicket-1.3.0-beta2"};           //Z-JIRA
+//        String[] datasetsArray = {"EQ", "JDT", "Lucene", "Mylyn", "PDE"};      //AEEEM
 //        String[] datasetsArray = {"ant-1.3", "camel-1.6", "ivy-2.0", "jedit-4.1", "log4j-1.2", "poi-2.0", "prop-6",
 //                "synapse-1.2", "tomcat", "velocity-1.4", "xalan-2.4", "xerces-1.2"};            //PROMISE
 
-        for (int i = 0; i <= 4; i++) {
-            for (int k = 0; k <= 4; k++) {
+        for (int i = 0; i <= 6; i++) {
+            for (int k = 0; k <= 6; k++) {
                 if (i != k) {
                     for (int j = 1; j <= 30; j++) {
                         dsIdx = k;//target
@@ -67,8 +67,8 @@ public class ExpAIO_others {
 
                         // 0.9source
 //                        String task = "CpjitsdpAIO4  -l (meta.ggc2.meta.WaitForLabelsOOB -i 27 -s " + ens + " -t " + theta + " -w " + waitingTime + ")  -s  (ArffFileStream -f (datasets_process/ReLink/" + datasetsArray[sourcedataset] + "_" + j + ".arff) -c 27) -e (FadingFactorEachClassPerformanceEvaluator -a 0.99) -f 1 -d results/" + datasetsArray[sourcedataset] + "_" + datasetsArray[dsIdx] + "-" + arrId + ".csv";
-//                        String task = "CpjitsdpAIO4  -l (meta.ggc2.meta.WaitForLabelsOOB -i 66 -s " + ens + " -t " + theta + " -w " + waitingTime + ")  -s  (ArffFileStream -f (datasets_process/Z-JIRA/" + datasetsArray[sourcedataset] + "_" + j + ".arff) -c 66) -e (FadingFactorEachClassPerformanceEvaluator -a 0.99) -f 1 -d results/" + datasetsArray[sourcedataset] + "_" + datasetsArray[dsIdx] + "-" + arrId + ".csv";
-                        String task = "CpjitsdpAIO4  -l (meta.ggc2.meta.WaitForLabelsOOB -i 62 -s " + ens + " -t " + theta + " -w " + waitingTime + ")  -s  (ArffFileStream -f (datasets_process/AEEEM/" + datasetsArray[sourcedataset] + "_" + j + ".arff) -c 62) -e (FadingFactorEachClassPerformanceEvaluator -a 0.99) -f 1 -d results/" + datasetsArray[sourcedataset] + "_" + datasetsArray[dsIdx] + "-" + arrId + ".csv";
+                        String task = "CpjitsdpAIO4  -l (meta.ggc2.meta.WaitForLabelsOOB -i 66 -s " + ens + " -t " + theta + " -w " + waitingTime + ")  -s  (ArffFileStream -f (datasets_process/Z-JIRA/" + datasetsArray[sourcedataset] + "_" + j + ".arff) -c 66) -e (FadingFactorEachClassPerformanceEvaluator -a 0.99) -f 1 -d results/" + datasetsArray[sourcedataset] + "_" + datasetsArray[dsIdx] + "-" + arrId + ".csv";
+//                        String task = "CpjitsdpAIO4  -l (meta.ggc2.meta.WaitForLabelsOOB -i 62 -s " + ens + " -t " + theta + " -w " + waitingTime + ")  -s  (ArffFileStream -f (datasets_process/AEEEM/" + datasetsArray[sourcedataset] + "_" + j + ".arff) -c 62) -e (FadingFactorEachClassPerformanceEvaluator -a 0.99) -f 1 -d results/" + datasetsArray[sourcedataset] + "_" + datasetsArray[dsIdx] + "-" + arrId + ".csv";
 //                        String task = "CpjitsdpAIO4  -l (meta.ggc2.meta.WaitForLabelsOOB -i 21 -s " + ens + " -t " + theta + " -w " + waitingTime + ")  -s  (ArffFileStream -f (datasets_process/PROMISE/" + datasetsArray[sourcedataset] + "_" + j + ".arff) -c 21) -e (FadingFactorEachClassPerformanceEvaluator -a 0.99) -f 1 -d results/" + datasetsArray[sourcedataset] + "_" + datasetsArray[dsIdx] + "-" + arrId + ".csv";
 
 
