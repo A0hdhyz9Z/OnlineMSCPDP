@@ -154,6 +154,7 @@ public IntOption unixTimeStampIndex = new IntOption("unixTimeStampIndex", 'i',
 			Days daysWaited = Days.daysBetween(timeTrainingExampleToPop,timeTestingInstance);
 
 //			if (daysWaited.getDays() >= waitingTime.getValue()) {
+
 			if (trainingExamplesQueue.size()!=0) {
 
 //				System.out.println((long)trainingExampleToPop.value(unixTimeStampIndex.getValue()));

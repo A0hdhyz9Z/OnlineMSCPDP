@@ -361,6 +361,7 @@ public class CpjitsdpAIO4 extends ClassificationMainTask {
 //                }
             }
 
+            // just for test
             if (LOCtmp == 0) {
                 write_results = false;
             }
